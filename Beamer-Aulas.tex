@@ -3,9 +3,14 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{amsmath}
 \usepackage{lipsum}
 \usepackage{natbib}
+
+%  Pacotes para elementos matemáticos
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usefonttheme[onlymath]{serif}
 
 \hypersetup{
 	colorlinks=true,
@@ -56,6 +61,19 @@
 \setbeamertemplate{enumerate subitem}{\insertenumlabel.\insertsubenumlabel}
 \setbeamertemplate{enumerate subsubitem}{\insertenumlabel.\insertsubenumlabel.\insertsubsubenumlabel}
 \setbeamertemplate{enumerate mini template}{\insertenumlabel}
+
+% Configurações das cores dos slides
+\definecolor{UBCblue}{rgb}{0.04706, 0.13725, 0.26667} % UBC Blue (primary)
+\definecolor{UBCgrey}{rgb}{0.3686, 0.5255, 0.6235} % UBC Grey (secondary)
+\setbeamercolor{palette primary}{bg=UBCblue,fg=white}
+\setbeamercolor{palette secondary}{bg=UBCblue,fg=white}
+\setbeamercolor{palette tertiary}{bg=UBCblue,fg=white}
+\setbeamercolor{palette quaternary}{bg=UBCblue,fg=white}
+\setbeamercolor{structure}{fg=UBCblue} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=UBCblue} % TOC sections
+\setbeamercolor{subsection in head/foot}{bg=UBCgrey,fg=white}
+% \setbeamercolor{background canvas}{bg=black}
+
 
 % Configure os parâmetros abaixo de acordo com a sua necessidade
 \title[\color{white}{Título no Rodapé}]{Disciplina}
