@@ -1,5 +1,0 @@
-\babel@toc {brazil}{}\relax 
-\beamer@sectionintoc {1}{Parágrafos Simples}{3}{0}{1}
-\beamer@sectionintoc {2}{Destaque de texto em blocos}{11}{0}{2}
-\beamer@sectionintoc {3}{Imagens}{13}{0}{3}
-\beamer@sectionintoc {4}{Referências}{18}{0}{4}
